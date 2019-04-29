@@ -17,13 +17,16 @@ The following example is what we use on our server. It must be aded to GameUserS
 
 We have the following powerstone islands and one trench:
 
+```
 Cay_C_EE_PVE (PowerStoneIndex 2)
 Mnt_Y_EU_PVE (PowerStoneIndex 4)
 Mnt_R_CH_PVE (PowerStoneIndex 6)
 Trench_B (PowerStoneIndex 0)
+```
 
 The following configuration allows us to unlock all of the missing powerstones (indices 0,1,3,5,7 and 8 for powerstones, and indices 1 though 8 for essences). The entries UnlockPowerStone entries refer to the "PowerStoneIndex" in the IslandInstanceCustomDatas1/IslandInstanceCustomDatas2 settings. The UnlockSecondaryStone entries refer to essences, normally found in trenches and are used to unlock the hard mode Kraken (**not tested yet**)
 
+```
 [UnlockPowerstones]
 UnlockPowerStone0=True
 UnlockPowerStone1=True
@@ -39,7 +42,7 @@ UnlockSecondaryStone5=True
 UnlockSecondaryStone6=True
 UnlockSecondaryStone7=True
 UnlockSecondaryStone8=True
-
+```
 
 
 
